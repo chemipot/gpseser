@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016674671D33B55600186CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 016674661D33B55600186CCA /* main.m */; };
+		0166746A1D33B55600186CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 016674691D33B55600186CCA /* AppDelegate.m */; };
+		0166746D1D33B55600186CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0166746C1D33B55600186CCA /* ViewController.m */; };
+		016674701D33B55600186CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0166746E1D33B55600186CCA /* Main.storyboard */; };
+		016674731D33B55600186CCA /* gpseser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 016674711D33B55600186CCA /* gpseser.xcdatamodeld */; };
+		016674751D33B55600186CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016674741D33B55600186CCA /* Assets.xcassets */; };
+		016674781D33B55600186CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016674761D33B55600186CCA /* LaunchScreen.storyboard */; };
+		016674831D33B55600186CCA /* gpseserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 016674821D33B55600186CCA /* gpseserTests.m */; };
+		0166748E1D33B55600186CCA /* gpseserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0166748D1D33B55600186CCA /* gpseserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0166747F1D33B55600186CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0166745A1D33B55600186CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016674611D33B55600186CCA;
+			remoteInfo = gpseser;
+		};
+		0166748A1D33B55600186CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0166745A1D33B55600186CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016674611D33B55600186CCA;
+			remoteInfo = gpseser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016674621D33B55600186CCA /* gpseser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpseser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016674661D33B55600186CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		016674681D33B55600186CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		016674691D33B55600186CCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0166746B1D33B55600186CCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0166746C1D33B55600186CCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0166746F1D33B55600186CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016674721D33B55600186CCA /* gpseser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gpseser.xcdatamodel; sourceTree = "<group>"; };
+		016674741D33B55600186CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016674771D33B55600186CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		016674791D33B55600186CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0166747E1D33B55600186CCA /* gpseserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpseserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		016674821D33B55600186CCA /* gpseserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpseserTests.m; sourceTree = "<group>"; };
+		016674841D33B55600186CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016674891D33B55600186CCA /* gpseserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpseserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0166748D1D33B55600186CCA /* gpseserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpseserUITests.m; sourceTree = "<group>"; };
+		0166748F1D33B55600186CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0166745F1D33B55600186CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0166747B1D33B55600186CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016674861D33B55600186CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016674591D33B55600186CCA = {
+			isa = PBXGroup;
+			children = (
+				016674641D33B55600186CCA /* gpseser */,
+				016674811D33B55600186CCA /* gpseserTests */,
+				0166748C1D33B55600186CCA /* gpseserUITests */,
+				016674631D33B55600186CCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016674631D33B55600186CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016674621D33B55600186CCA /* gpseser.app */,
+				0166747E1D33B55600186CCA /* gpseserTests.xctest */,
+				016674891D33B55600186CCA /* gpseserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016674641D33B55600186CCA /* gpseser */ = {
+			isa = PBXGroup;
+			children = (
+				016674681D33B55600186CCA /* AppDelegate.h */,
+				016674691D33B55600186CCA /* AppDelegate.m */,
+				0166746B1D33B55600186CCA /* ViewController.h */,
+				0166746C1D33B55600186CCA /* ViewController.m */,
+				0166746E1D33B55600186CCA /* Main.storyboard */,
+				016674741D33B55600186CCA /* Assets.xcassets */,
+				016674761D33B55600186CCA /* LaunchScreen.storyboard */,
+				016674791D33B55600186CCA /* Info.plist */,
+				016674711D33B55600186CCA /* gpseser.xcdatamodeld */,
+				016674651D33B55600186CCA /* Supporting Files */,
+			);
+			path = gpseser;
+			sourceTree = "<group>";
+		};
+		016674651D33B55600186CCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016674661D33B55600186CCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		016674811D33B55600186CCA /* gpseserTests */ = {
+			isa = PBXGroup;
+			children = (
+				016674821D33B55600186CCA /* gpseserTests.m */,
+				016674841D33B55600186CCA /* Info.plist */,
+			);
+			path = gpseserTests;
+			sourceTree = "<group>";
+		};
+		0166748C1D33B55600186CCA /* gpseserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0166748D1D33B55600186CCA /* gpseserUITests.m */,
+				0166748F1D33B55600186CCA /* Info.plist */,
+			);
+			path = gpseserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016674611D33B55600186CCA /* gpseser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016674921D33B55600186CCA /* Build configuration list for PBXNativeTarget "gpseser" */;
+			buildPhases = (
+				0166745E1D33B55600186CCA /* Sources */,
+				0166745F1D33B55600186CCA /* Frameworks */,
+				016674601D33B55600186CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gpseser;
+			productName = gpseser;
+			productReference = 016674621D33B55600186CCA /* gpseser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0166747D1D33B55600186CCA /* gpseserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016674951D33B55600186CCA /* Build configuration list for PBXNativeTarget "gpseserTests" */;
+			buildPhases = (
+				0166747A1D33B55600186CCA /* Sources */,
+				0166747B1D33B55600186CCA /* Frameworks */,
+				0166747C1D33B55600186CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016674801D33B55600186CCA /* PBXTargetDependency */,
+			);
+			name = gpseserTests;
+			productName = gpseserTests;
+			productReference = 0166747E1D33B55600186CCA /* gpseserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		016674881D33B55600186CCA /* gpseserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016674981D33B55600186CCA /* Build configuration list for PBXNativeTarget "gpseserUITests" */;
+			buildPhases = (
+				016674851D33B55600186CCA /* Sources */,
+				016674861D33B55600186CCA /* Frameworks */,
+				016674871D33B55600186CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0166748B1D33B55600186CCA /* PBXTargetDependency */,
+			);
+			name = gpseserUITests;
+			productName = gpseserUITests;
+			productReference = 016674891D33B55600186CCA /* gpseserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0166745A1D33B55600186CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jose Fernandez";
+				TargetAttributes = {
+					016674611D33B55600186CCA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0166747D1D33B55600186CCA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 016674611D33B55600186CCA;
+					};
+					016674881D33B55600186CCA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 016674611D33B55600186CCA;
+					};
+				};
+			};
+			buildConfigurationList = 0166745D1D33B55600186CCA /* Build configuration list for PBXProject "gpseser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016674591D33B55600186CCA;
+			productRefGroup = 016674631D33B55600186CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016674611D33B55600186CCA /* gpseser */,
+				0166747D1D33B55600186CCA /* gpseserTests */,
+				016674881D33B55600186CCA /* gpseserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016674601D33B55600186CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016674781D33B55600186CCA /* LaunchScreen.storyboard in Resources */,
+				016674751D33B55600186CCA /* Assets.xcassets in Resources */,
+				016674701D33B55600186CCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0166747C1D33B55600186CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016674871D33B55600186CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0166745E1D33B55600186CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0166746D1D33B55600186CCA /* ViewController.m in Sources */,
+				016674731D33B55600186CCA /* gpseser.xcdatamodeld in Sources */,
+				0166746A1D33B55600186CCA /* AppDelegate.m in Sources */,
+				016674671D33B55600186CCA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0166747A1D33B55600186CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016674831D33B55600186CCA /* gpseserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016674851D33B55600186CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0166748E1D33B55600186CCA /* gpseserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016674801D33B55600186CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016674611D33B55600186CCA /* gpseser */;
+			targetProxy = 0166747F1D33B55600186CCA /* PBXContainerItemProxy */;
+		};
+		0166748B1D33B55600186CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016674611D33B55600186CCA /* gpseser */;
+			targetProxy = 0166748A1D33B55600186CCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0166746E1D33B55600186CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0166746F1D33B55600186CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		016674761D33B55600186CCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016674771D33B55600186CCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016674901D33B55600186CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		016674911D33B55600186CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016674931D33B55600186CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gpseser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtm.gpseser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		016674941D33B55600186CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gpseser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtm.gpseser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		016674961D33B55600186CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gpseserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtm.gpseserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gpseser.app/gpseser";
+			};
+			name = Debug;
+		};
+		016674971D33B55600186CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gpseserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtm.gpseserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gpseser.app/gpseser";
+			};
+			name = Release;
+		};
+		016674991D33B55600186CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gpseserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtm.gpseserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gpseser;
+			};
+			name = Debug;
+		};
+		0166749A1D33B55600186CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gpseserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jtm.gpseserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gpseser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0166745D1D33B55600186CCA /* Build configuration list for PBXProject "gpseser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016674901D33B55600186CCA /* Debug */,
+				016674911D33B55600186CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016674921D33B55600186CCA /* Build configuration list for PBXNativeTarget "gpseser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016674931D33B55600186CCA /* Debug */,
+				016674941D33B55600186CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		016674951D33B55600186CCA /* Build configuration list for PBXNativeTarget "gpseserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016674961D33B55600186CCA /* Debug */,
+				016674971D33B55600186CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		016674981D33B55600186CCA /* Build configuration list for PBXNativeTarget "gpseserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016674991D33B55600186CCA /* Debug */,
+				0166749A1D33B55600186CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		016674711D33B55600186CCA /* gpseser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				016674721D33B55600186CCA /* gpseser.xcdatamodel */,
+			);
+			currentVersion = 016674721D33B55600186CCA /* gpseser.xcdatamodel */;
+			path = gpseser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0166745A1D33B55600186CCA /* Project object */;
+}
